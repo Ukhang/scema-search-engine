@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .link {
+        @apply hover:underline cursor-pointer
+    }
+
+    * {
+        @apply bg-teal-50
+    }
+
+    .btn {
+        @apply bg-[#D3F3ED] py-2 px-3 rounded-sm ring-gray-200 text-sm text-[#374151] hover:ring-1 focus:outline-none active:ring-gray-300 hover:shadow-md max-w-[10rem];
+    }
+}
