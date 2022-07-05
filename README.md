@@ -1,4 +1,5 @@
-## Scema-search-engine
+## Scema-search-engine ![logo](https://user-images.githubusercontent.com/94834060/177332201-3dbf19cc-726a-40e5-bab7-eafead63e12f.png)
+
 🌎 Scema Search Engine building with Google Search API
 
 🔍 Searcing -----> Response data comming for google search API (REST API)
