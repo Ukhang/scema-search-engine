@@ -1,5 +1,3 @@
-// ==================== Handle a Api (server data) =============================
-
 //  API Key - https://developers.google.com/custom-search/v1/using_rest
 const API_KEY = 'AIzaSyCaTfNbHJdVT-U8ctBC0fSptzlluCNFtTk';
 
@@ -7,7 +5,9 @@ const API_KEY = 'AIzaSyCaTfNbHJdVT-U8ctBC0fSptzlluCNFtTk';
 // Context Key - https://cse.google.com/cse/create/new
 const CONTEXT_KEY = '0e0f5ba825ec5071a';
 
-const Response = {
+export {API_KEY, CONTEXT_KEY};
+
+export default {
     kind: "customsearch#search",
     url: {
       type: "application/json",
@@ -263,6 +263,3 @@ const Response = {
       }
     ]
 }
-
-export {API_KEY, CONTEXT_KEY};
-export default Response;
