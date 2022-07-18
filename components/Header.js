@@ -1,5 +1,4 @@
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
-import Image from "next/image";
 import { useRouter } from "next/router";
 import { useRef } from "react";
 import Avater from "./Avater";
@@ -22,7 +21,7 @@ const Header = () => {
         <div>
             <header className="sticky top-0 bg-white">
                 <div className="flex w-full p-6 items-center">
-                    <Image 
+                    <img
                         src="/./images/logo.png" 
                         height={45} 
                         width={50}
