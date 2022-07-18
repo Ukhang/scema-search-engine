@@ -1,7 +1,6 @@
 import Head from "next/head"
 import { ViewGridIcon, MicrophoneIcon, SearchIcon } from "@heroicons/react/solid"
 import Avater from "../components/Avater"
-import Image from "next/image"
 import Footer from "../components/Footer"
 import { useRouter } from "next/router";
 import { useRef } from "react"
@@ -51,8 +50,8 @@ export default function Home(){
                     <h2 className="text-7xl font-semibold tracking-wide text-[#374151]">
                         <span className="text-[#FBBF24]">S</span>cema
                     </h2>
-                    <Image
-                        src={"/./images/logo.png"}
+                    <img
+                        src={"./images/logo.png"}
                         width={130}
                         height={120}
                     />
@@ -92,8 +91,8 @@ export default function Home(){
                     or share any of your personal information.
                 </p>
 
-                <Image
-                    src={"/./images/delete.png"}
+                <img
+                    src={"./images/delete.png"}
                     width={500}
                     height={500}
                     alt="delete-document-image"
