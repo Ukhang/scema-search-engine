@@ -20,7 +20,7 @@ export default function Home(){
     }
 
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen flex flex-col">
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
                 <meta name="description" content="World effective search engine"/>
