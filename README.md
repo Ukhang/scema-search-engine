@@ -2,7 +2,7 @@
 
 🌎 Scema Search Engine building with Google Search API
 
-🔍 Searcing -----> Response data comming for google search API (REST API)
+🔍 Searcing -----> Response data coming for google search API (REST API)
 
 #### watch the live: https://scema-search-engine.vercel.app/
 
